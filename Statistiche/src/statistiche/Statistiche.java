@@ -20,7 +20,7 @@ public class Statistiche {
     public static void main(String[] args) {
             // TODO code application logic here
             DatiCondivisi dati = new DatiCondivisi(1000);
-            ThGenera thGenera = new ThGenera(dati);
+            ThGenera thGenera = new ThGenera(dati);//
             ThLettorePunti thLettorePunti = new ThLettorePunti(dati);
             ThLettoreSpazi thLettoreSpazi = new ThLettoreSpazi(dati);
             ThVisualizza thVisualizza = new ThVisualizza(dati);
